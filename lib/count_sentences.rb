@@ -28,7 +28,7 @@ class String
 
   def count_sentences
     split_string = self.split(/[.!?]/)
-    split_string.count{ |split_string| split_string.end_with("! ", "? ", ". ")
+    split_string.count{ |split_string| split_string.end_with("! ", "? ", ". ")}
     
   end
 end
